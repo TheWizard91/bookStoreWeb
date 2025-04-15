@@ -1,6 +1,8 @@
 import Device from "../../helpers/index.ts"
 import Login from "../login/page";
 
+import {AuthProvider} from "../context/authcontext.js"
+
 const Home = () => {
   return (
     <main>
@@ -9,7 +11,7 @@ const Home = () => {
             if (isMobile) {
                 return (
                     <>
-                        <Login />
+                      <Login />
                     </>
                 )
             }
