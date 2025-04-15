@@ -1,0 +1,43 @@
+/* .column {
+  flex: 50%;
+} */
+  
+.row {
+  display: flex;
+}
+
+.h3 h4 p {
+  font-style: Amiri;
+}
+
+#selectedBookCard {
+  background-color: #FFF4E4; /** #DAC5A7*/
+}
+
+#buyItNowButton {
+  border: 5px solid #20750D; 
+  border-radius: 12px;
+  background: #21BC27;
+  color: #CDFFCA;
+  display:inline-block;
+  padding:20px;
+  transition:3s;
+}
+
+#buyItNowButton:hover {
+  border: 5px groove blue;
+  border-radius:0px;
+  color:black;
+  background:yellow;
+  transition:0.5s
+}
+
+#buttonRow {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+#textRow {
+  height: 80%;
+}

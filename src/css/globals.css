@@ -1,0 +1,82 @@
+.ui.main.container {
+  width: 1000px !important;
+  font-family: "Amiri";
+}
+
+.themeFontColor {
+  color: coral;
+}
+
+tr {
+  cursor: pointer;
+}
+
+#myLibraryUpperSegment, #bestSellerLowerSegment {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 20px 20px 20px;
+}
+
+#booksSegmentForMyLibrary {
+  display: flex;
+  justify-content: space-between /*center*/;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#booksSegmentForBestSellerBooks{
+  display: flex;
+  justify-content: space-between/*center*/;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#myLibrarySegment {
+  margin-left: "30px";
+  margin-Right: "30px";
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#leftButton, #rightButton {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* 
+body {
+  background: black;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.list {
+  border: 1px solid #fff;
+  padding: 5px;
+}
+
+.pagination {
+  display: flex;
+  border: 1px solid #fff;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.pagination button {
+  padding: 10px;
+}
+
+.active {
+  background: black;
+  color: #fff;
+  border: 1px solid #fff;
+} */

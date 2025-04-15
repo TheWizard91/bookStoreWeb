@@ -1,0 +1,10 @@
+#leftButton #rightButton {
+    color:"white";
+    background-color:"#C4E2EA";
+    border-radius: "50%";
+    border-color:"black";
+    width:"30px";
+    height:"30px";
+    all: unset;
+    cursor: pointer;
+}
