@@ -6,6 +6,6 @@ import {v4 as uuid} from 'uuid';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Index = () => <React.StrictMode><App /></React.StrictMode>;
+const Index = () => <App />
 
 export default Index;
