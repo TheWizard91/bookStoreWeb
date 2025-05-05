@@ -35,7 +35,7 @@ const NavBarSemanticUI = ({height, width }) => {
             <div className="six column grid">
             <div className="three wide column">
                 <div className="column" style={{display: "contents"}}>
-                    <h1>Book</h1>
+                    <h1>E-Books</h1>
                 </div>
             </div>
             <div className={widthOfMenu}>
