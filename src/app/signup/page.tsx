@@ -23,7 +23,7 @@ const Signup = () => {
     const [email, setEmail] = useState()
     const [password, setPassword] = useState()
     const [confirm_password, setConfirmPassword] = useState()
-    // const {current_user, signup, logout, setUser_id} = useAuth()
+    const {current_user, signup, logout, setUser_id} = useAuth()
 
     function inputIdHandler(n:String){
         if(!n.includes(" ")){
