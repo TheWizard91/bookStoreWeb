@@ -19,7 +19,7 @@ import { StarIcon } from "./icons/staricon";
 // import { useBook } from "../../hooks/usebook";
 // import { BookData } from "../classes/dataclasses/bookData";
 
-const ClickedBook = (searchParams: String) => {
+const ClickedBook = ({searchParams}) => {
     const colors = new Map<String, String> ([
         ["bluePastel", "#8EACCD"],
         ["pastelVioletl", "E5D9F2"]
