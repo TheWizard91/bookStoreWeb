@@ -4,15 +4,15 @@
 
 import "semantic-ui-css/semantic.min.css"
 
-import { useStateParams, useSearchParams, useRouter } from "next/navigation"
-import { Tooltip, Button, Form } from "@nextui-org/react"
+import { useSearchParams} from "next/navigation"
+import { Tooltip, Button } from "@nextui-org/react"
 import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card"
 
-import { useEffect, useState, useRef, useCallback, React } from "react"
+import { useEffect, useState, useRef, useCallback } from "react"
 import ReactDOM from "react-dom";
-import styled from 'styled-components';
+// import styled from 'styled-components';
 
-const BuyItNow = ({searchParams}) => {
+const BuyItNow = ({searchParams: string}) => {
     //TODO: Price is undefined when I try to render it.
 
     const fetchBook = useSearchParams()

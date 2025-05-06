@@ -1,11 +1,11 @@
 {
-  "name": "next-auth",
+  "name": "eBookStore",
   "version": "0.1.0",
   "private": false,
   "homepage": "https://TheWizard91.github.io./bookStoreWeb",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm i && next build",
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
