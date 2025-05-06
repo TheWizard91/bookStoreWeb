@@ -12,7 +12,7 @@ import { useEffect, useState, useRef, useCallback } from "react"
 import ReactDOM from "react-dom";
 // import styled from 'styled-components';
 
-const BuyItNow = ({searchParams: string}) => {
+const BuyItNow = (searchParams: String) => {
     //TODO: Price is undefined when I try to render it.
 
     const fetchBook = useSearchParams()
